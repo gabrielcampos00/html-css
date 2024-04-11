@@ -3,6 +3,12 @@ body{
     color: rgb(66, 66, 51);
 }
 
+header{
+    background-color: rgb(173, 173, 84);
+    padding: 10px 20px;
+    margin: 30px;
+}
+
 main{
     background-color: white;
     border-right: 10px;
