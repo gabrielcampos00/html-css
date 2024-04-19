@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="shortcut icon" href="favicon_io (4)/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas </h2>
+    <p>Para utilizarmos a lista ordenada usamos a tag &lt;ol&gt; e dentro dela a tag &lt;li&gt;</p>
+    <ol type="I">  <!--Types de listas ordenadas 1, A, a, I, i-->  
+        <li>Acordar</li>    
+        <li>Ligar para João</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café da manhã</li>
+        <li>Ir na academia</li>
+    </ol>
+
+    <ol type="1" start="6">
+        <li>Acordar</li>
+        <li>Ligar para João</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café da manhã</li>
+        <li>Ir na academia</li>
+    </ol>
+
+    <h2>Listas Não Ordenadas</h2>
+    <ul>  <!--Types de listas não ordenadas disc, circles, square-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Alface</li>
+        <li>Arroz</li>
+        <li>Tomate</li>
+    </ul>
+
+    <ul type="circle">
+        <li>Tênis</li>
+        <li>Camiseta</li>
+        <li>Bermuda</li>
+        <li>Meia</li>
+        <li>Moletom</li>
+    </ul>
+
+    <h2>Meus jogoa favoritos</h2>
+    <ol>
+        <li>Antigos</li>
+        <ol type="1">
+            <li>GTA San Andreas</li>
+            <li>Bully</li>
+            <li>Crash</li>
+            <li>Lego Batman 1</li>
+        </ol>
+        <li>Novos</li>
+        <ol type="I">
+            <li>Fortnite</li>
+            <li>Clash Royale</li>
+            <li>FIFA</li>
+            <li>Brawl Stars</li>
+        </ol>
+    </ol>
+    <!--Start é um parâmetro numérico, ou seja, se quisermos que a lista continue na letra E o start tem que ser 5, pois E é a quinta letra do alfabeto-->
+
+    <h2>Meus times favoritos com Listas Mistas</h2>
+    <ol>
+        <li>Brasil</li>
+        <ul type="disc">
+            <li>Guarani</li>
+            <ul type="circle"> 
+                <li>Time de 78</li> <!--Exemplo de uma lista dentro da outra-->
+                <li>Time de 94</li>
+            </ul>
+            <li>Fluminense</li>
+            <li>Paraná</li>
+        </ul type="disc">
+
+        <li>Inglaterra</li>
+        <ul type="disc">
+            <li>Manchester City</li>
+            <li>Newcastle</li>
+            <li>Wolves</li>
+        </ul type="disc">
+
+        <li>Itália</li>
+        <ul type="disc">
+            <li>Internazionale</li>
+            <li>Milan</li>
+            <li>Juventus</li>
+        </ul type="disc">
+    </ol> 
+    <!--Atalho ALT + Mouse para mudar os outro cursores
+    OL para numeros ou letras e UL para discos ou quadrados-->
+
+    <h2>Listas de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação de um site.</dd>
+        <dt>CSS</dt>
+        <dd>linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de Progamação para a criação de interatividade de um site.</dd>
+    </dl>
+<hr>
+    <h2>Meu exemplo básico</h2>
+    <dl>
+        <dt>Processador</dt>
+        <dd>Cérebro do computador</dd>
+        <dd>Ryzen 5 5500G</dd>
+        <dt>Cooler</dt>
+        <dd>Fonte de ventilação e resfriamento do computador</dd>
+        <dd>Cooler Pichau 240mm</dd>
+    </dl>
+</body>
+</html>
