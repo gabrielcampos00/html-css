@@ -10,14 +10,20 @@
         }
 
         table {
-        border: 3px solid blue;
         width: 400px;
         border-collapse: collapse;
+       
+        
         }
 
-        td {
+        thead {
+          background-color: rgb(148, 146, 146);
+         
+        }
+
+        td, th {
             border: 1px solid black;
-            padding: 5px;
+            padding: 8px;
         }
 
     </style>
@@ -26,33 +32,31 @@
     <h1>tabela teste</h1>
 
     <table>
-      <tr class="informacoes">
-        <td>Modelo</td>
-        <td>Ano</td>
-        <td>Cor</td>
-      </tr>
+      <thead>
+        <th>Modelo</th>
+        <th>Ano</th>
+        <th>Cor</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Impala</td>
+          <td>1967</td>
+          <td>Preto</td>
+        </tr>
+        <tr>
+          <td>Opala</td>
+          <td>1985</td>
+          <td>Vermelho</td>
+        </tr>
+        <tr>
+          <td>Chevette</td>
+          <td>1970</td>
+          <td>Amarelo</td>
+        </tr>
+      </tbody>
+      <tfoot>
 
-      <tr class="impala">
-        <td>Impala</td>
-        <td>1967</td>
-        <td>Preto</td>
-      </tr>
-
-      <tr class="opala">
-        <td>Opala</td>
-        <td>1985</td>
-        <td>Vermlho</td>
-      </tr>
-
-      <tr class="chevette">
-        <td>Chevette</td>
-        <td>1970</td>
-        <td>Amarelo</td>
-      </tr>
-       
-
-
-       
+      </tfoot>
     </table>
 </body>
 </html>
