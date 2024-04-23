@@ -54,6 +54,10 @@
         .populacao {
            text-align: right;
         }
+
+        #poptot {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -62,6 +66,8 @@
     <table> 
         <caption>População das Unidades Federativas</caption>
         <thead>
+             <!-- <th scope="row">População Total</th>
+           <td> 203.062.512 </td> -->
             <th scope="col">Posição</th>
             <th scope="col">Estado</th>
             <th scope="col">População</th>
@@ -205,8 +211,10 @@
 
         </tbody>
         <tfoot>
-           <!-- <th scope="row">População Total</th>
-           <td> 203.062.512 </td> -->
+          <tr>
+            <th>População Total</th>
+            <td id="poptot" colspan="2">203.062.512</td>
+          </tr>
         </tfoot>
     </table>
    
